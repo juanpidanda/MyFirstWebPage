@@ -1,0 +1,66 @@
+
+/* SELECTORS BY TAGS*/
+body{
+    background-color:#191825;
+}
+
+hr{
+    height: 7px;
+    background-color:#0bd46f;
+    border-style: none;
+    border-radius: 7px;
+    width: 90%
+}
+
+h1{
+    color:#865DFF /*#03001C;*/
+}
+h2
+{
+    color: #8ecfae;
+}
+h3{
+    color: #865DFF/*#03001C;*/
+
+}
+h4{
+    color: #865DFF/*#03001C;*/
+
+}
+
+p{
+    color: #E9E8E8;
+}
+
+li{
+    color: #E9E8E8;
+}
+
+th{
+    color: #E384FF;
+}
+td{
+    color: #E9E8E8;
+    
+}
+a{
+    color:#5B8FB9;
+}
+
+/* SELECTORS BY CLASS*/
+
+.alternate{
+    background-color: #762abd;
+}
+.whitecolor{
+    color: #E9E8E8;
+}
+.darkbluecolor{
+    color: #03001C;
+}
+.altahref{
+    color: #0bd46f ;
+}
+.altahref2{
+    color: #FFA3FD;
+}
