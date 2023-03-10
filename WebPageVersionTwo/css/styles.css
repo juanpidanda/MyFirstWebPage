@@ -1,0 +1,177 @@
+/*Tags Styles*/
+body{
+    background: linear-gradient(#fefefe,#DC2F2F,#040202);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+
+    color:#F8F8F8;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+h1{
+    color:#363636;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/*Classes Styles*/
+.webPageHeader{
+    margin: 30px;
+    font-size: 137px;
+}
+.headerSubtitle{
+    font-size: 17px;
+    color: #131313;
+}
+.profilePicture{
+    margin: 0;
+    height: 500px;
+}
+
+
+/*
+.Intro
+ {
+   background-color: #0F1C2E;
+ }
+ 
+ .Mid
+ {
+     background-color: #0F1C2E;
+ }
+
+ .Bot
+ {
+    position: relative; 
+    background-color: #0F1C2E; 
+ }
+
+ .name 
+ {
+   position: relative;
+   margin: 0 auto;
+   font-size: 75px;
+   bottom: 500px; 
+   color: aliceblue; 
+   background-color: #e9e8e817;
+   display: inline-block;
+   padding: 5px 50px;
+   border-radius: 40px;
+   
+ 
+ }
+ 
+ .subtitle
+ {
+     position: relative;
+     margin: 0 auto;
+     bottom: 500px; 
+     font-size: 40px;
+     font-weight: 800;
+     color: aliceblue;
+     
+ }
+ 
+ .skill-row
+ {
+     display: inline-block;
+     margin: 70px 100px;
+ }
+ 
+ .skill1-img
+ {
+     width: 100px;
+ }
+ 
+ .skill2-img
+ {
+     width: 100px;
+ }
+ 
+ .skill3-img
+ {
+     width: 100px;
+ }
+ 
+ .software-row
+ {
+     text-align: left;
+     width: 60%;
+     margin: 50px auto;
+     margin-bottom: 70px;
+ }
+ 
+ .software-row:nth-child(even)
+ {
+     text-align: left;
+ }
+ 
+ .software-row:nth-child(odd)
+ {
+     text-align: right;
+ }
+ 
+ .software1-img
+ {
+ 
+     width: 100px;
+     float: left;
+     margin: 10px;
+ }
+ 
+ .software2-img
+ {
+     width: 100px;
+     float: right; 
+ 
+ }
+ 
+ .footer-hr
+ {
+     margin: 0;
+ }
+ 
+ .get-in-touch
+ {
+     color: aliceblue;
+ }
+ 
+ .together
+ {
+     margin: 10px  0 20px;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .together.hover
+ {
+     font-family: cursive;
+ }
+ 
+ .copyright
+ {
+     margin: 0;
+ }
+ 
+ .btn {
+     margin: 30px 0;
+     display: inline-block;
+     background: #3498db;
+     background-image: linear-gradient(to bottom, #3498db, #2980b9);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding:15px;
+     text-decoration: none;
+   }
+ 
+   .footer-link
+   {
+     color: #E14A3F;
+     margin: 5px 10px;
+   }
+   */
