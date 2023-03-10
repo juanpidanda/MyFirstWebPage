@@ -1,7 +1,115 @@
+/*Tags*/
 body{
-    font-family: 'Playfair';
-
+    background-image: url('../images/space.png');
+    background-position: fixed;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    color:#e9e8e8;
+    font-family: 'EB Garamond', serif;
+}
+hr{
+    background-color: transparent;
+    border-style: dashed none none;
+    border-width: 4px;
+    border-color: #e9e8e8;
+    border-radius: 0%;
 }
 h1{
+    /*text-align: center;*/
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+}
+h3{
+    font-family: 'Plafair Display', serif;
+}
+a{
+    color: cyan;
+}
 
+/*Classes */
+.pageContents{
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+    background-color: #0e0418ea;
+}
+.tetrominosImage{
+    margin: 0 50px;
+}
+.tetrominContainer{
+position: relative;
+top: 50px;
+bottom: 50px;
+
+margin: 0;
+padding-left: 200px;
+}
+.twoRowsContainer{
+    height: 206px;
+}
+.threeRowsContainer{
+    height: 259px;
+}
+.fourRowsContainer{
+    height: 324px;
+}
+.tetrominBlock{
+    position: absolute;
+    margin: 0;
+    height: 50px;
+    width: 50px;
+
+    border: #e9e8e8;
+    border-style: solid;
+    border-width: 3px;
+}
+.secondRowBlock{
+    top:53px;
+}
+.secondColumnBlock{
+    left:253px
+}
+.thirdRowBlock{
+    top:106px;
+}
+.thirdColumnBlock{
+    left:306px
+}
+.fourthRowBlock{
+    top:159px;
+}
+/*.fourthColumnBlock{
+    left:359px
+}*/
+/*I Tetromin*/
+.iBlock{
+    background-color: aqua;
+}
+/*JTetromin*/
+.jBlock{
+    background-color: blue;
+}
+/*L Tetromin*/
+.lBlock{
+    background-color: orange;
+}
+/*O Tetromin*/
+.oBlock{
+    background-color: yellow;
+}
+/*S Tetromin*/
+.sBlock{
+    background-color: green;
+}
+/*T Tetromin*/
+.tBlock{
+    background-color: purple;
+}
+/*Z Tetromin*/
+.zBlock{
+    background-color: red;
 }
