@@ -1,7 +1,8 @@
 
 /* SELECTORS BY TAGS*/
 body{
-    background-color:#191825;
+    background: linear-gradient(#e9e8e8 1%, rgb(207, 24, 39) ,#191825 85%);
+    /*background-color:#191825;*/
     color:#e9e8e8;
     font-family: 'Times New Roman', Times, serif;
 }
