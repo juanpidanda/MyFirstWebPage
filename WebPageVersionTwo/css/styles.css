@@ -1,22 +1,45 @@
 /*Tags Styles*/
 body{
     background: linear-gradient(#fefefe,#DC2F2F,#040202);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
 
     margin: 0;
 
     color:#F8F8F8;
+    font-size: 17px;
     text-align: center;
     font-family: 'EB Garamond', serif;
+}
+hr{
+    background-color: transparent;
+    width: 70%;
+    border-style: dashed none none;
+    border-width: 4px;
+    border-color: #FF894C;
+    border-radius: 0%;
 }
 h1{
     color:#363636;
     font-family: 'Playfair Display', serif;
 }
+h2{
+    color:#F8F8F8;
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    color:#F8F8F8;
+    font-family: 'EB Garamond', serif;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 /*Classes Styles*/
+.aContactMe{
+    color: #ea5b5b;
+}
 .webPageHeader{
     margin: 30px;
     font-size: 137px;
@@ -30,148 +53,65 @@ h1{
     height: 500px;
 }
 
+/*Skills*/
+.skill_row
+{
+    display: inline-block;
+    margin: 70px 100px;
+}
+.skill_img{
+    width:100px
+}
+.skill_imgRounded{
+    background-color: #F8F8F8;
+    border-radius: 100%;
+    border-style: solid;
+}
 
-/*
-.Intro
- {
-   background-color: #0F1C2E;
- }
- 
- .Mid
- {
-     background-color: #0F1C2E;
- }
+/*Softwares*/
+.software_row{
+    text-align: left;
+    width:60%;
+    margin: 50px auto;
+    margin-bottom: 70px;
+}
+.software_row:nth-child(even)
+{
+    text-align: left;
+}
 
- .Bot
- {
-    position: relative; 
-    background-color: #0F1C2E; 
- }
+.software_row:nth-child(odd)
+{
+    text-align: right;
+}
 
- .name 
- {
-   position: relative;
-   margin: 0 auto;
-   font-size: 75px;
-   bottom: 500px; 
-   color: aliceblue; 
-   background-color: #e9e8e817;
-   display: inline-block;
-   padding: 5px 50px;
-   border-radius: 40px;
-   
- 
- }
- 
- .subtitle
- {
-     position: relative;
-     margin: 0 auto;
-     bottom: 500px; 
-     font-size: 40px;
-     font-weight: 800;
-     color: aliceblue;
-     
- }
- 
- .skill-row
- {
-     display: inline-block;
-     margin: 70px 100px;
- }
- 
- .skill1-img
- {
-     width: 100px;
- }
- 
- .skill2-img
- {
-     width: 100px;
- }
- 
- .skill3-img
- {
-     width: 100px;
- }
- 
- .software-row
- {
-     text-align: left;
-     width: 60%;
-     margin: 50px auto;
-     margin-bottom: 70px;
- }
- 
- .software-row:nth-child(even)
- {
-     text-align: left;
- }
- 
- .software-row:nth-child(odd)
- {
-     text-align: right;
- }
- 
- .software1-img
- {
- 
-     width: 100px;
-     float: left;
-     margin: 10px;
- }
- 
- .software2-img
- {
-     width: 100px;
-     float: right; 
- 
- }
- 
- .footer-hr
- {
+.software_imgLeft{
+    margin: 10px;
+    width: 100px;
+    float: left;
+}
+.software_imgRight{
+    margin: 10px;
+    width: 100px;
+    float: right;
+}
+
+/*Contact & More*/
+.btn{
+    margin: 0;
+    display: inline-block;
+    background: #040202;
+    background-image: linear-gradient(#DC2F2F,#040202);
+    -webkit-border-radius: 37;
+    -moz-border-radius: 37;
+    border-radius: 28px;
+    font-family: 'Playfair Display', serif;
+    color: #F8F8F8;
+    font-size: 20px;
+    padding:15px;
+    text-decoration: none;
+}
+
+.copyright{
      margin: 0;
- }
- 
- .get-in-touch
- {
-     color: aliceblue;
- }
- 
- .together
- {
-     margin: 10px  0 20px;
-     font-family: 'Courier New', Courier, monospace;
- }
- 
- .together.hover
- {
-     font-family: cursive;
- }
- 
- .copyright
- {
-     margin: 0;
- }
- 
- .btn {
-     margin: 30px 0;
-     display: inline-block;
-     background: #3498db;
-     background-image: linear-gradient(to bottom, #3498db, #2980b9);
-     -webkit-border-radius: 28;
-     -moz-border-radius: 28;
-     border-radius: 28px;
-     font-family: Arial;
-     color: #ffffff;
-     font-size: 20px;
-     padding:15px;
-     text-decoration: none;
-   }
- 
-   .footer-link
-   {
-     color: #E14A3F;
-     margin: 5px 10px;
-   }
-   */
+}
